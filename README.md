@@ -30,9 +30,10 @@ talk to the Ti Launchpad.
 
 The work was inspired by [westf][2] on the [Ti e2e][3] community, he wrote the
 first and original codeless kernel extension, however due to changes in Lion
-the original version did not compile and Lion being a 64-bit only required that
-all kernel extension are 64-bit as well. Instead of having a project moved from
-Xcode 3 to Xcode 4 with its own issues, I created the project from scratch.
+the original version did not compile, mostly due to renamed existing kernel
+extensions (com.apple.kernel.iokit is not com.apple.kpi.iokit). Instead of
+having a project moved from Xcode 3 to Xcode 4 with its own issues, I created
+the project from scratch.
 
 [1]: http://mspdebug.sourceforge.net/
 [2]: http://e2e.ti.com/support/microcontrollers/msp43016-bit_ultra-low_power_mcus/f/166/p/18554/212659.aspx#212659
