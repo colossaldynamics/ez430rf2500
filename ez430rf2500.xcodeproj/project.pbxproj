@@ -15,11 +15,11 @@
 /* Begin PBXFileReference section */
 		2D9CE71113D7DE8B00AE55E3 /* ez430rf2500.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ez430rf2500.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9CE71513D7DE8B00AE55E3 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
-		2D9CE71813D7DE8B00AE55E3 /* ez430rf2500-Info.plist */ = {isa = PBXFileReference; path = "ez430rf2500-Info.plist"; sourceTree = "<group>"; };
+		2D9CE71813D7DE8B00AE55E3 /* ez430rf2500-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ez430rf2500-Info.plist"; sourceTree = "<group>"; };
 		2D9CE71A13D7DE8B00AE55E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D9CE71C13D7DE8B00AE55E3 /* ez430rf2500.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ez430rf2500.h; sourceTree = "<group>"; };
 		2D9CE71E13D7DE8B00AE55E3 /* ez430rf2500.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ez430rf2500.cpp; sourceTree = "<group>"; };
-		2D9CE72013D7DE8B00AE55E3 /* ez430rf2500-Prefix.pch */ = {isa = PBXFileReference; path = "ez430rf2500-Prefix.pch"; sourceTree = "<group>"; };
+		2D9CE72013D7DE8B00AE55E3 /* ez430rf2500-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ez430rf2500-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +207,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = ez430rf2500;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -226,6 +227,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = ez430rf2500;
 				SDKROOT = macosx;
 			};
 			name = Release;
