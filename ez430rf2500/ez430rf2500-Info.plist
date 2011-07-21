@@ -23,10 +23,65 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>IOKitPersonalities</key>
-	<dict/>
+	<dict>
+		<key>DebugIntf</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
+			<key>idProduct</key>
+			<integer>62514</integer>
+			<key>idVendor</key>
+			<integer>1105</integer>
+		</dict>
+		<key>ComIntf</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>62514</integer>
+			<key>idVendor</key>
+			<integer>1105</integer>
+		</dict>
+		<key>DeviceDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>bcdDevice</key>
+			<integer>256</integer>
+			<key>idProduct</key>
+			<integer>62514</integer>
+			<key>idVendor</key>
+			<integer>1105</integer>
+		</dict>
+	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011 __MyCompanyName__. All rights reserved.</string>
+	<string>Copyright © 2011 Colossal Dynamics Corporation. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
-	<dict/>
+	<dict>
+		<key>com.apple.kpi.iokit</key>
+		<string>11.0</string>
+		<key>com.apple.iokit.IOUSBFamily</key>
+		<string>4.4</string>
+	</dict>
 </dict>
 </plist>
